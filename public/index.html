@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Resolve Callback Hell</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body class="container">
+
+	<h3>Using $promise to resolve callback hell for 10 levels.</h3>
+
+	<button onclick="TriggerCallback(); this.onclick=null;">Click Me!</button>
+	
+	<div id="title">
+		<h2>Name</h2>
+		<h2>Gender</h2>
+		<h2>Age</h2>
+	</div>
+	
+	<div id="content"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
